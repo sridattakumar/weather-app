@@ -1,0 +1,82 @@
+.head1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, '#2f4680', '#353183');
+}
+.weather{
+    padding: 40px;
+    place-self: center;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #37daf7, #14f74d) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    background-color: azure;
+    border-radius: 40px;
+}
+.search-bar img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 15px;
+}
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    font-size: 18px;
+    color: #626262;
+    background-color: #ebfffc;
+}
+.weather-data{
+    width: 100%;
+    margin-top: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.weather-data .col{
+    display: flex;
+    font-size: 22px;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather-data .col span{
+    display: block;
+    font-size: 16px;
+}
+.weather-data .col img{
+    width: 26px;
+    margin-top: 10px;
+}
+.hum{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.win{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.text{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}

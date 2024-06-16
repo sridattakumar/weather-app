@@ -1,0 +1,10 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.app{
+  min-height: 100vh;
+  display: grid;
+  background-color: rgb(184, 202, 202);
+}
